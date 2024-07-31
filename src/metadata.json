@@ -1,0 +1,58 @@
+{
+  "profile": {
+    "image": "./images/magalu.png",
+    "title": "Magalu",
+    "description": "Lorem ipsum dolor sit amet",
+    "background": "./images/background.jpg",
+    "copyright": "Produzido por jrcosta",
+    "textColor": "#fff"
+  },
+  "links": [
+    {
+      "name": "Site",
+      "url": "https://google.com",
+      "icon": "bx-globe",
+      "bgColor": "#165981"
+    },
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/1234567890",
+      "icon": "bxl-whatsapp",
+      "bgColor": "#00d559"
+    },
+    {
+      "name": "PodCast",
+      "url": "https://google.com",
+      "icon": "bx-podcast",
+      "bgColor": "#165981"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://youtube.com/",
+      "icon": "bxl-youtube",
+      "bgColor": "#165981"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/",
+      "icon": "bxl-linkedin",
+      "bgColor": "#165981"
+    }
+  ],
+  "seo": {
+    "title": "SEO Title",
+    "description": "bara bara bara, berê berê berê",
+    "canonical": "https://google.com",
+    "ogImage": "./images/magalu.png",
+    "keywords": "marketing, gourmet, loja, sei la",
+    "favicon": "./images/magalu.png"
+  },
+  "analytics": {
+    "googleAnalyticsId": "UA-XXXXXXXXX-X",
+    "googleTags": {
+      "id": "UA-XXXXXX-X",
+      "link": "https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X"
+    },
+    "facebookPixelId": "XXXXXXXXXXXXX"
+  }
+}

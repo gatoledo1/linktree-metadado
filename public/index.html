@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= htmlWebpackPlugin.options.metadata.seo.title %></title>
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="canonical" href="<%= htmlWebpackPlugin.options.metadata.seo.canonical %>">
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="<%= htmlWebpackPlugin.options.metadata.seo.description %>">
+  <meta name="keywords" content="<%= htmlWebpackPlugin.options.metadata.seo.keywords %>">
+  <meta name="author" content="<%= htmlWebpackPlugin.options.metadata.seo.author %>">
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="<%= htmlWebpackPlugin.options.metadata.seo.title %>">
+  <meta property="og:description" content="<%= htmlWebpackPlugin.options.metadata.seo.description %>">
+  <meta property="og:image" content="<%= htmlWebpackPlugin.options.metadata.seo.ogImage %>">
+  <meta property="og:url" content="<%= htmlWebpackPlugin.options.metadata.seo.canonical %>">
+  <meta property="og:type" content="website">
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:title" content="<%= htmlWebpackPlugin.options.metadata.seo.title %>">
+  <meta name="twitter:description" content="<%= htmlWebpackPlugin.options.metadata.seo.description %>">
+  <meta name="twitter:image" content="<%= htmlWebpackPlugin.options.metadata.seo.ogImage %>">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Favicon -->
+  <link rel="icon" href="<%= htmlWebpackPlugin.options.metadata.seo.favicon %>" type="image/x-icon">
+  <!-- Additional Meta Tags -->
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#555">
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
